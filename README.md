@@ -26,8 +26,8 @@ To run this application on your machine, you need at least:
 Then you'll need to create the database and initialize schema ():
 
 ```bash
-echo 'CREATE DATABASE application' | mysql -u [mysql_username] -p [mysql_password]
-cat schemas/db.sql | mysql -u [mysql_username] -p [mysql_password] application
+echo 'CREATE DATABASE phalcon-single' | mysql -u [mysql_username] -p [mysql_password]
+cat schemas/db.sql | mysql -u [mysql_username] -p [mysql_password] phalcon-single
 ```
 
 ### Installing Dependencies via Composer
@@ -53,3 +53,6 @@ If you want something to be improved or you want a new feature please submit a P
 ## License
 
 phalcon-single is open-sourced software licensed under the New BSD License.
+
+##Own Experience
+I Used this framework in [Mihanmag](https://mihanmag.com), [Bekhan](http://bekhan.me) and [Kashkol](http://http://kashkol.ir)

@@ -1,0 +1,17 @@
+
+footer {
+    background: url("../img/feature-gradient.png") no-repeat scroll center 100% white;
+    color: #B7B7B7;
+    font-size: 12px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer a {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+div.main-container {
+	margin-top: 70px;
+}

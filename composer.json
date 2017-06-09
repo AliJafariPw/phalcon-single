@@ -1,0 +1,25 @@
+{
+    "name": "alijafaripw/phalcon-single",
+    "description": "This is a starting application for the Phalcon Framework.",
+    "version": "1.0.0",
+    "type": "project",
+    "keywords": [
+        "phalcon",
+        "framework",
+        "sample app",
+        "single module"
+    ],
+    "license": "NGPL",
+    "homepage": "http://jafari.pw",
+    "authors": [
+        {
+            "name": "ali",
+            "email": "ali@jafari.pw"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "ext-phalcon": "~3.0",
+        "mailjet/mailjet-apiv3-php": "^1.2"
+    }
+}

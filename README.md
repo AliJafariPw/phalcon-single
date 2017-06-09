@@ -27,7 +27,7 @@ Then you'll need to create the database and initialize schema ():
 
 ```bash
 echo 'CREATE DATABASE phalcon-single' | mysql -u [mysql_username] -p [mysql_password]
-cat schemas/db.sql | mysql -u [mysql_username] -p [mysql_password] phalcon-single
+cat schemas/phalcon-single.sql | mysql -u [mysql_username] -p [mysql_password] phalcon-single
 ```
 
 ### Installing Dependencies via Composer
